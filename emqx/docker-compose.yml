@@ -1,0 +1,31 @@
+#   author: thibault@desaules.me
+#   contributor: none
+#   licence: Apache License, Version 2.0 (https://opensource.org/licenses/Apache-2.0)
+#   example:
+#     docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/emqx/docker-compose.yml up
+#     docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/emqx/docker-compose.yml up --detach --remove-orphans --force-recreate
+#     docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/emqx/docker-compose.yml down
+---
+version: '3'
+
+services:
+  emqx:
+    container_name: 'emqx'
+    restart: 'no'
+    image: 'ghcr.io/tdesaules/emqx:1.0.4'
+    networks:
+      development:
+    dns: 'coredns'
+    ports:
+      - '1883:1883'
+    volumes:
+      - '/var/run/docker.sock:/var/run/docker.sock:ro'
+      - '/etc/localtime:/etc/localtime:ro'
+      - './volumes/data:/opt/emqx/data'
+      - './volumes/etc:/opt/emqx/etc'
+      - './volumes/log:/opt/emqx/log'
+
+networks:
+  development:
+    external: true
+...
