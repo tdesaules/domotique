@@ -12,7 +12,7 @@ services:
   emqx:
     container_name: 'emqx'
     restart: 'no'
-    image: 'ghcr.io/tdesaules/emqx:1.0.4'
+    image: 'ghcr.io/tdesaules/emqx:1.0.5'
     networks:
       development:
     dns: 'coredns'
@@ -21,9 +21,6 @@ services:
     volumes:
       - '/var/run/docker.sock:/var/run/docker.sock:ro'
       - '/etc/localtime:/etc/localtime:ro'
-      - './volumes/data:/opt/emqx/data'
-      - './volumes/etc:/opt/emqx/etc'
-      - './volumes/log:/opt/emqx/log'
 
 networks:
   development:
