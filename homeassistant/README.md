@@ -50,13 +50,13 @@ docker buildx inspect --bootstrap
 Next build the docker image for multiple arch and publish it :
 
 ```shell
-docker buildx build --platform linux/arm64,linux/amd64 -t ghcr.io/tdesaules/ghcr.io/tdesaules/homeassistant-2022.3.2-alpine3.15:1.0.0 . --push 
+docker buildx build --platform linux/arm64,linux/amd64 -t ghcr.io/tdesaules/homeassistant-2022.3.2-alpine3.15:1.0.0 . --push
 ```
 
 Look at the details : 
 
 ```shell
-docker buildx imagetools inspect ghcr.io/tdesaules/ghcr.io/tdesaules/homeassistant-2022.3.2-alpine3.15:1.0.0
+docker buildx imagetools inspect ghcr.io/tdesaules/homeassistant-2022.3.2-alpine3.15:1.0.0
 ```
 
 eventually run it :

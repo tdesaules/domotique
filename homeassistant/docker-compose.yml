@@ -12,15 +12,16 @@ services:
   homeassistant:
     container_name: 'homeassistant'
     restart: 'no'
-    image: 'ghcr.io/tdesaules/homeassistant-2022.3.2-alpine3.15:1.0.0'
+    image: 'homeassistant'
     networks:
       development:
-    dns: 'coredns'
+    dns: '172.16.254.253'
     ports:
-      - '1883:1883'
+      - '8123:8123'
     volumes:
       - '/var/run/docker.sock:/var/run/docker.sock:ro'
       - '/etc/localtime:/etc/localtime:ro'
+      - './config:/home/homeassistant/.homeassistant'
 
 networks:
   development:
