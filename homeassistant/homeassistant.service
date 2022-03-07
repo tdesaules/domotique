@@ -1,0 +1,15 @@
+[Unit]
+Description=Home Assistant Container Service
+BindsTo=docker.service
+After=docker.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+RestartSec=10
+ExecStart=/usr/local/bin/docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/homeassistant/docker-compose.yml up -d --remove-orphans --force-recreate
+ExecStop=/usr/local/bin/docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/homeassistant/docker-compose.yml down
+ExecReload=/usr/local/bin/docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/homeassistant/docker-compose.yml restart
+
+[Install]
+WantedBy=multi-user.target

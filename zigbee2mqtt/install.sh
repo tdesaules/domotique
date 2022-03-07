@@ -13,18 +13,15 @@ echo "@testing http://nl.alpinelinux.org/alpine/edge/testing" >> /etc/apk/reposi
 apk --no-cache add ca-certificates
 apk update
 apk upgrade
-apk add --no-cache bash sudo erlang curl openssl snappy
+apk add --no-cache sudo bash nodejs npm
 apk --purge del
 
-# info: link binaries
-ln -s /opt/vernemq/bin/* /usr/local/bin/
-
-# info: add a dedicated user to run emqx
-addgroup -S vernemq
-adduser -D vernemq -G vernemq
-echo "vernemq ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers
+# info: add a dedicated user to run zigbee2mqtt
+addgroup -S zigbee2mqtt
+adduser -D zigbee2mqtt -G zigbee2mqtt
+echo "zigbee2mqtt ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers
 
 # info: change the right
-chgrp -Rf vernemq /opt/vernemq
-chmod -Rf g+w /opt/vernemq
-chown -Rf vernemq /opt/vernemq
+chgrp -Rf zigbee2mqtt /opt/zigbee2mqtt
+chmod -Rf g+w /opt/zigbee2mqtt
+chown -Rf zigbee2mqtt /opt/zigbee2mqtt

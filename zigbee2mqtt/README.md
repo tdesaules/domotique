@@ -22,15 +22,6 @@ this image describe the worflow:
 
 This is the steps to build the emqx container image using buildx to have multiple arch and publish it to github registry.
 
-Try to build and run local image if needed : 
-
-```shell
-docker build -t vernemq .
-docker run -p 1883:1883 vernemq
-docker exec -it xxxxxxxxxxxx /bin/ash
-docker stop xxxxxxxxxxxx
-```
-
 First log in to github registry :
 
 ```shell

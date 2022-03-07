@@ -1,6 +1,6 @@
-# EMQX DOCKER CONTAINER
+# HOME ASSISTANT DOCKER CONTAINER
 
-This is the folder with evrything to create and run a MQTT Broker using EMQX opensource version.
+This is the folder with evrything to create and run a MQTT Broker using VerneMQ opensource version.
 
 ## Git Flow 
 
@@ -20,7 +20,16 @@ this image describe the worflow:
 
 ## Build docker imagage
 
-This is the steps to build the emqx container image using buildx to have multiple arch and publish it to github registry.
+This is the steps to build the homeassistant container image using buildx to have multiple arch and publish it to github registry.
+
+Try to build and run local image if needed : 
+
+```shell
+docker build -t homeassistant .
+docker run -dp 8123:8123 homeassistant
+docker exec -it xxxxxxxxxxxx /bin/ash
+docker stop xxxxxxxxxxxx
+```
 
 First log in to github registry :
 
@@ -38,22 +47,22 @@ docker buildx use mybuilder
 docker buildx inspect --bootstrap
 ```
 
-Next build the docker image :
+Next build the docker image for multiple arch and publish it :
 
 ```shell
-docker buildx build --platform linux/arm64,linux/amd64 -t ghcr.io/tdesaules/emqx-4.4.1-alpine3.15:1.0.0 . --push 
+docker buildx build --platform linux/arm64,linux/amd64 -t ghcr.io/tdesaules/ghcr.io/tdesaules/homeassistant-2022.3.2-alpine3.15:1.0.0 . --push 
 ```
 
 Look at the details : 
 
 ```shell
-docker buildx imagetools inspect ghcr.io/tdesaules/emqx-4.4.1-alpine3.15:1.0.0
+docker buildx imagetools inspect ghcr.io/tdesaules/ghcr.io/tdesaules/homeassistant-2022.3.2-alpine3.15:1.0.0
 ```
 
 eventually run it :
 
 ```shell
-docker run ghcr.io/tdesaules/emqx-4.4.1-alpine3.15:1.0.0@sha256:21f65a0db062cc7e736c8a629073295cfa5e8474ef55c9a90558c37bdfbb8374
+docker run ghcr.io/tdesaules/homeassistant-2022.3.2-alpine3.15:1.0.0@sha256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 ## Docker Compose

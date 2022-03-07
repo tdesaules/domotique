@@ -13,18 +13,9 @@ echo "@testing http://nl.alpinelinux.org/alpine/edge/testing" >> /etc/apk/reposi
 apk --no-cache add ca-certificates
 apk update
 apk upgrade
-apk add --no-cache erlang curl ncurses-libs openssl sudo libstdc++ bash
+apk add --no-cache bash git curl make nodejs npm g++ gcc python3 linux-headers
 apk --purge del
 
-# info: link binaries
-ln -s /opt/emqx/bin/* /usr/local/bin/
-
-# info: add a dedicated user to run emqx
-addgroup -S emqx
-adduser -D emqx -G emqx
-echo "emqx ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers
-
-# info: change the right
-chgrp -Rf emqx /opt/emqx
-chmod -Rf g+w /opt/emqx
-chown -Rf emqx /opt/emqx
+# info: build zigbee2mqtt
+git clone -b 1.24.0 https://github.com/Koenkk/zigbee2mqtt.git .
+npm ci

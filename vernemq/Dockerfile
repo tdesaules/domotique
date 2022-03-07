@@ -24,4 +24,4 @@ RUN /bin/ash /root/install.sh
 # info: change user
 USER vernemq
 # info: command to run
-CMD ["/opt/vernemq/bin/vernemq", "console"]
+CMD ["sudo", "/opt/vernemq/bin/vernemq", "console", "-noshell", "-noinput", "$@", "&"]

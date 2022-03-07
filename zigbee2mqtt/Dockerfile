@@ -4,7 +4,7 @@
 
 FROM alpine:3.15 AS builder
 # info: configure the working directory
-WORKDIR /opt/emqx
+WORKDIR /opt/zigbee2mqtt
 # info: copy base scripts to the created folder
 COPY build.sh /root/build.sh
 # info: convert dos2unix
@@ -14,14 +14,16 @@ RUN /bin/ash /root/build.sh
 
 
 FROM alpine:3.15
+# info: configure the working directory
+WORKDIR /opt/zigbee2mqtt
 # info: copy base scripts to the created folder
-COPY --from=builder /opt/emqx/_build/emqx/rel/emqx /opt/emqx
+COPY --from=builder /opt/zigbee2mqtt /opt/zigbee2mqtt
 COPY install.sh /root/install.sh
 # info: convert dos2unix
 RUN dos2unix /root/install.sh
 # info: install and dependencies
 RUN /bin/ash /root/install.sh
 # info: change user
-USER emqx
+USER zigbee2mqtt
 # info: command to run
-CMD ["/opt/emqx/bin/emqx", "foreground"]
+CMD ["npm", "start"]

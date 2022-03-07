@@ -13,9 +13,15 @@ echo "@testing http://nl.alpinelinux.org/alpine/edge/testing" >> /etc/apk/reposi
 apk --no-cache add ca-certificates
 apk update
 apk upgrade
-apk add --no-cache bash git make curl erlang erlang-dev cmake gcc g++ perl ncurses-dev openssl-dev coreutils linux-headers build-base bsd-compat-headers libc-dev libstdc++
+apk add --no-cache bash sudo runuser git curl python3 python3-dev py3-virtualenv py3-pip libffi-dev libressl-dev openssl-dev jpeg-dev zlib-dev autoconf build-base tzdata tiff-dev
 apk --purge del
 
-# info: build emqx
-git clone -b v4.4.1 https://github.com/emqx/emqx.git .
-make
+# add an homeassistant user
+addgroup -S homeassistant
+adduser -D homeassistant -G homeassistant
+echo "homeassistant ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers
+
+# info: change the right
+chgrp -Rf homeassistant /opt/homeassistant
+chmod -Rf g+w /opt/homeassistant
+chown -Rf homeassistant /opt/homeassistant

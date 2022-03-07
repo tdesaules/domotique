@@ -13,7 +13,7 @@ echo "@testing http://nl.alpinelinux.org/alpine/edge/testing" >> /etc/apk/reposi
 apk --no-cache add ca-certificates
 apk update
 apk upgrade
-apk add --no-cache bash git make erlang-dev curl g++ snappy-dev bsd-compat-headers openssl-dev
+apk add --no-cache bash patch git make erlang-dev curl g++ snappy-dev bsd-compat-headers openssl-dev
 apk --purge del
 
 # info: build vernemq

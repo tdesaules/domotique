@@ -1,0 +1,29 @@
+#   author: thibault@desaules.me
+#   contributor: none
+#   licence: Apache License, Version 2.0 (https://opensource.org/licenses/Apache-2.0)
+#   example:
+#     docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/vernemq/docker-compose.yml up
+#     docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/vernemq/docker-compose.yml up --detach --remove-orphans --force-recreate
+#     docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/vernemq/docker-compose.yml down
+---
+version: '3'
+
+services:
+  vernemq:
+    container_name: 'vernemq'
+    restart: 'no'
+    image: 'ghcr.io/tdesaules/vernemq-1.12.14-alpine3.15:1.0.0'
+    networks:
+      development:
+    dns: 'coredns'
+    ports:
+      - '1883:1883'
+    volumes:
+      - '/var/run/docker.sock:/var/run/docker.sock:ro'
+      - '/etc/localtime:/etc/localtime:ro'
+      - './config/vernemq.conf:/opt/vernemq/etc/vernemq.conf'
+
+networks:
+  development:
+    external: true
+...
