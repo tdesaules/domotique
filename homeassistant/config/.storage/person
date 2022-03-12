@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "minor_version": 1,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "Home",
+                "user_id": "bb8f3a37f6294d799b9220a2193b5d1b",
+                "device_trackers": [],
+                "id": "home",
+                "picture": "/api/image/serve/75671abdd21342178c2a1519ee93e5bf/512x512"
+            },
+            {
+                "name": "Thibault",
+                "device_trackers": [
+                    "device_tracker.iphone_de_thibault"
+                ],
+                "user_id": "6958bf05c2ea4ef688a67678eae9301c",
+                "picture": "/api/image/serve/d0c6166cefea73677c304476f793919d/512x512",
+                "id": "thibault"
+            }
+        ]
+    }
+}

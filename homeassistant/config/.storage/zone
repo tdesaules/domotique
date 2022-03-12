@@ -1,0 +1,18 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "zone",
+    "data": {
+        "items": [
+            {
+                "name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+                "latitude": 48.89200707556895,
+                "longitude": 2.230782508850098,
+                "passive": false,
+                "radius": 100.0,
+                "icon": "mdi:briefcase",
+                "id": "societe_generale"
+            }
+        ]
+    }
+}

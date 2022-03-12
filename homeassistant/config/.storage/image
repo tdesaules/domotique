@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "image",
+    "data": {
+        "items": [
+            {
+                "id": "1182a6efa2b8e27b10c7daa11605c3a0",
+                "filesize": 61594,
+                "content_type": "image/jpeg",
+                "name": "20220207_185431677_iOS.jpg",
+                "uploaded_at": "2022-03-08T18:20:55.277129+00:00"
+            },
+            {
+                "id": "d0c6166cefea73677c304476f793919d",
+                "filesize": 50645,
+                "content_type": "image/jpeg",
+                "name": "20220207_185431677_iOS.jpg",
+                "uploaded_at": "2022-03-08T18:21:12.314738+00:00"
+            },
+            {
+                "id": "75671abdd21342178c2a1519ee93e5bf",
+                "filesize": 8452,
+                "content_type": "image/jpeg",
+                "name": "unnamed.png",
+                "uploaded_at": "2022-03-08T18:21:54.219577+00:00"
+            }
+        ]
+    }
+}

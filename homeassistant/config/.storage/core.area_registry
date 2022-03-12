@@ -1,0 +1,49 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.area_registry",
+    "data": {
+        "areas": [
+            {
+                "name": "Salon",
+                "id": "salon",
+                "picture": null
+            },
+            {
+                "name": "Cuisine",
+                "id": "cuisine",
+                "picture": null
+            },
+            {
+                "name": "Chambre",
+                "id": "chambre",
+                "picture": null
+            },
+            {
+                "name": "Entr\u00e9e",
+                "id": "entree",
+                "picture": null
+            },
+            {
+                "name": "Toilettes",
+                "id": "toilettes",
+                "picture": null
+            },
+            {
+                "name": "Cagibi",
+                "id": "cagibi",
+                "picture": null
+            },
+            {
+                "name": "Couloir",
+                "id": "couloir",
+                "picture": null
+            },
+            {
+                "name": "Salle de bain",
+                "id": "salle_de_bain",
+                "picture": null
+            }
+        ]
+    }
+}

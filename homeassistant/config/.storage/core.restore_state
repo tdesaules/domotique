@@ -1,0 +1,75 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.home",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "id": "home",
+                    "user_id": "bb8f3a37f6294d799b9220a2193b5d1b",
+                    "entity_picture": "/api/image/serve/75671abdd21342178c2a1519ee93e5bf/512x512",
+                    "friendly_name": "Home"
+                },
+                "last_changed": "2022-03-11T22:56:50.241353+00:00",
+                "last_updated": "2022-03-11T23:02:05.281579+00:00",
+                "context": {
+                    "id": "ebc873999c7431c8ade39c0984f3eac2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-11T23:02:05.282802+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "person.thibault",
+                "state": "home",
+                "attributes": {
+                    "editable": false,
+                    "id": "thibault",
+                    "latitude": 48.89520751061886,
+                    "longitude": 2.278336578905383,
+                    "gps_accuracy": 8.490629010267284,
+                    "source": "device_tracker.iphone_de_thibault",
+                    "user_id": "6958bf05c2ea4ef688a67678eae9301c",
+                    "entity_picture": "/api/image/serve/d0c6166cefea73677c304476f793919d/512x512",
+                    "friendly_name": "Thibault"
+                },
+                "last_changed": "2022-03-11T22:56:50.241513+00:00",
+                "last_updated": "2022-03-11T23:02:05.281702+00:00",
+                "context": {
+                    "id": "bf911fa31c379894016754d0584a328d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-11T23:02:05.282802+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.notify_home",
+                "state": "off",
+                "attributes": {
+                    "editable": false,
+                    "icon": "mdi:car",
+                    "friendly_name": "Notify when someone arrives home"
+                },
+                "last_changed": "2022-03-11T20:54:20.760664+00:00",
+                "last_updated": "2022-03-11T20:54:20.760664+00:00",
+                "context": {
+                    "id": "279c541000d4b9a6e01f36420fa146a5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-11T22:31:52.956832+00:00"
+        }
+    ]
+}

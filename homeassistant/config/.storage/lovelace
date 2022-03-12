@@ -1,0 +1,102 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "lovelace",
+    "data": {
+        "config": {
+            "title": "Home",
+            "views": [
+                {
+                    "theme": "Backend-selected",
+                    "path": "dashboard",
+                    "title": "Dashboard",
+                    "icon": "mdi:home-assistant",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "person.thibault"
+                            ]
+                        },
+                        {
+                            "type": "picture-elements",
+                            "image": "local/images/floorplan.png",
+                            "elements": [
+                                {
+                                    "type": "state-icon",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.ceiling_lights",
+                                    "style": {
+                                        "top": "47%",
+                                        "left": "42%"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "theme": "Backend-selected",
+                    "title": "salon",
+                    "path": "salon",
+                    "icon": "",
+                    "badges": [],
+                    "cards": []
+                },
+                {
+                    "theme": "Backend-selected",
+                    "title": "chambre",
+                    "path": "chambre",
+                    "badges": [],
+                    "cards": []
+                },
+                {
+                    "theme": "Backend-selected",
+                    "title": "cuisine",
+                    "path": "cuisine",
+                    "badges": [],
+                    "cards": []
+                },
+                {
+                    "theme": "Backend-selected",
+                    "title": "Entr\u00e9e",
+                    "path": "entree",
+                    "icon": "",
+                    "badges": [],
+                    "cards": []
+                },
+                {
+                    "theme": "Backend-selected",
+                    "title": "salle de bain",
+                    "path": "salle-de-bain",
+                    "badges": [],
+                    "cards": []
+                },
+                {
+                    "theme": "Backend-selected",
+                    "title": "couloir",
+                    "path": "couloir",
+                    "badges": [],
+                    "cards": []
+                },
+                {
+                    "theme": "Backend-selected",
+                    "title": "toilettes",
+                    "path": "toilettes",
+                    "badges": [],
+                    "cards": []
+                },
+                {
+                    "theme": "Backend-selected",
+                    "title": "cagibi",
+                    "path": "cagibi",
+                    "badges": [],
+                    "cards": []
+                }
+            ]
+        }
+    }
+}

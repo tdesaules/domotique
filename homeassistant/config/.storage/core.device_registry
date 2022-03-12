@@ -1,0 +1,34 @@
+{
+    "version": 1,
+    "minor_version": 3,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "bb467486cdd91701e71b7f0f433dd9d5"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "icloud",
+                        "5yAbrrC4uERJ4pD2lfUReEZYzh72Brqhi7mxiFvihSk="
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone 13 mini",
+                "name": "iPhone de Thibault",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "d141a6afbe2116be92d1f87dbf278eac",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "https://icloud.com/"
+            }
+        ],
+        "deleted_devices": []
+    }
+}

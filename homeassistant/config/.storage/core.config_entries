@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "bb467486cdd91701e71b7f0f433dd9d5",
+                "version": 1,
+                "domain": "icloud",
+                "title": "tdesaules@outlook.com",
+                "data": {
+                    "username": "tdesaules@outlook.com",
+                    "password": "JdMUTH2JseEg3b",
+                    "with_family": false,
+                    "max_interval": 30,
+                    "gps_accuracy_threshold": 500
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "tdesaules@outlook.com",
+                "disabled_by": null
+            }
+        ]
+    }
+}
