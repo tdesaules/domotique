@@ -19,6 +19,7 @@ apk --purge del
 # info: add a dedicated user to run zigbee2mqtt
 addgroup -S zigbee2mqtt
 adduser -D zigbee2mqtt -G zigbee2mqtt
+addgroup zigbee2mqtt dialout
 echo "zigbee2mqtt ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers
 
 # info: change the right

@@ -13,9 +13,12 @@ echo "@testing http://nl.alpinelinux.org/alpine/edge/testing" >> /etc/apk/reposi
 apk --no-cache add ca-certificates
 apk update
 apk upgrade
-apk add --no-cache bash git curl make nodejs npm g++ gcc python3 linux-headers
+apk add --no-cache bash git curl make nodejs npm g++ gcc python3 linux-headers wget
 apk --purge del
 
 # info: build zigbee2mqtt
-git clone -b 1.24.0 https://github.com/Koenkk/zigbee2mqtt.git .
+wget https://github.com/Koenkk/zigbee2mqtt/archive/refs/tags/$ZIGBEE2MQTT_VERSION.zip
+unzip $ZIGBEE2MQTT_VERSION.zip
+mv zigbee2mqtt-$ZIGBEE2MQTT_VERSION zigbee2mqtt
+cd zigbee2mqtt
 npm ci

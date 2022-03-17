@@ -1,6 +1,6 @@
-# VERNEMQ DOCKER CONTAINER
+# ZIGBEE2MQTT DOCKER CONTAINER
 
-This is the folder with evrything to create and run a MQTT Broker using VerneMQ opensource version.
+to do stuff
 
 ## Git Flow 
 
@@ -58,6 +58,34 @@ docker run ghcr.io/tdesaules/vernemq-1.12.14-alpine3.15:1.0.0@sha256:xxxxxxxxxxx
 
 ## Docker Compose
 
+to do stuff
+
+## usbipb support to develop with a usb zigbee dongle
+
+https://github.com/dorssel/usbipd-win/releases
+
+sudo apt install linux-tools-5.4.0-77-generic hwdata
+sudo update-alternatives --install /usr/local/bin/usbip usbip /usr/lib/linux-tools/5.4.0-77-generic/usbip 20
+
+usbipd wsl list
+usbipd wsl attach --busid 1-2
+usbipd wsl detach --busid 1-2
+
+lsusb
+
+sudo apt install build-essential flex bison libssl-dev libelf-dev dwarves libncurses-dev
+cd /tmp
+wget https://github.com/microsoft/WSL2-Linux-Kernel/archive/refs/tags/linux-msft-wsl-5.10.102.1.zip
+unzip linux-msft-wsl-5.10.102.1.zip
+cd WSL2-Linux-Kernel-linux-msft-wsl-5.10.102.1
+make menuconfig KCONFIG_CONFIG=Microsoft/config-wsl
+make KCONFIG_CONFIG=Microsoft/config-wsl
+cp arch/x86/boot/bzImage /mnt/c/Users/tdesa/wsl/kernel
+vi /mnt/c/Users/tdesa/.wslconfig
+[wsl2]
+kernel = C:\\Users\\tdesa\\wsl\\kernel
+wsl --shutdown
+wsl
 
 
 ## Contributing

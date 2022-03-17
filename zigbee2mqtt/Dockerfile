@@ -3,8 +3,10 @@
 #   licence: Apache License, Version 2.0 (https://opensource.org/licenses/Apache-2.0)
 
 FROM alpine:3.15 AS builder
+# info: set zigbee2mqtt version
+ENV ZIGBEE2MQTT_VERSION=1.24.0
 # info: configure the working directory
-WORKDIR /opt/zigbee2mqtt
+WORKDIR /opt
 # info: copy base scripts to the created folder
 COPY build.sh /root/build.sh
 # info: convert dos2unix
