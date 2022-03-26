@@ -17,5 +17,6 @@ apk add --no-cache bash patch git make erlang-dev curl g++ snappy-dev bsd-compat
 apk --purge del
 
 # info: build vernemq
-git clone -b 1.12.4 https://github.com/vernemq/vernemq.git .
+git clone -b $VERNEMQ_VERSION https://github.com/vernemq/vernemq.git .
+git config --global url.https://.insteadOf git://
 make rel

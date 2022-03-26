@@ -50,7 +50,7 @@ docker buildx inspect --bootstrap
 Next build the docker image :
 
 ```shell
-docker buildx build --platform linux/arm64,linux/amd64 -t ghcr.io/tdesaules/vernemq-1.12.14-alpine3.15:1.0.0 . --push 
+docker buildx build --platform linux/arm64,linux/amd64 -t ghcr.io/tdesaules/vernemq-1.12.14-alpine3.15:1.0.0 . --push
 ```
 
 Look at the details : 
@@ -68,6 +68,10 @@ docker run ghcr.io/tdesaules/vernemq-1.12.14-alpine3.15:1.0.0@sha256:xxxxxxxxxxx
 ## Docker Compose
 
 
+## MQTT tests 
+
+mosquitto_sub -h 172.16.254.2 -t \#
+mosquitto_pub -h 172.16.254.2 -t test/bulb1 -m "hello world2" -d
 
 ## Contributing
 

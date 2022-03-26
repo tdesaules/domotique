@@ -2,9 +2,9 @@
 #   contributor: none
 #   licence: Apache License, Version 2.0 (https://opensource.org/licenses/Apache-2.0)
 #   example:
-#     docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/vernemq/docker-compose.yml up
-#     docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/vernemq/docker-compose.yml up --detach --remove-orphans --force-recreate
-#     docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/vernemq/docker-compose.yml down
+#     docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/zigbee2mqtt/docker-compose.yml up
+#     docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/zigbee2mqtt/docker-compose.yml up --detach --remove-orphans --force-recreate
+#     docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/zigbee2mqtt/docker-compose.yml down
 ---
 version: '3'
 
@@ -15,11 +15,11 @@ services:
     image: 'ghcr.io/tdesaules/zigbee2mqtt-1.24.0-alpine3.15:1.0.0'
     networks:
       development:
-    dns: 'coredns'
+    dns: '172.16.254.253'
     ports:
       - '8080:8080'
     devices:
-      - "/dev/ttyUSB0:/dev/ttyUSB0"
+      - '/dev/ttyUSB0:/dev/ttyUSB0'
     volumes:
       - '/var/run/docker.sock:/var/run/docker.sock:ro'
       - '/etc/localtime:/etc/localtime:ro'

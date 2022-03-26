@@ -41,19 +41,19 @@ docker buildx inspect --bootstrap
 Next build the docker image :
 
 ```shell
-docker buildx build --platform linux/arm64,linux/amd64 -t ghcr.io/tdesaules/vernemq-1.12.14-alpine3.15:1.0.0 . --push 
+docker buildx build --platform linux/arm64,linux/amd64 -t ghcr.io/tdesaules/zigbee2mqtt-1.24.0-alpine3.15:1.0.0 . --push
 ```
 
 Look at the details : 
 
 ```shell
-docker buildx imagetools inspect ghcr.io/tdesaules/vernemq-1.12.14-alpine3.15:1.0.0
+docker buildx imagetools inspect ghcr.io/tdesaules/zigbee2mqtt-1.24.0-alpine3.15:1.0.0
 ```
 
 eventually run it :
 
 ```shell
-docker run ghcr.io/tdesaules/vernemq-1.12.14-alpine3.15:1.0.0@sha256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+docker run -it ghcr.io/tdesaules/zigbee2mqtt-1.24.0-alpine3.15:1.0.0@sha256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 ## Docker Compose
@@ -67,11 +67,10 @@ https://github.com/dorssel/usbipd-win/releases
 sudo apt install linux-tools-5.4.0-77-generic hwdata
 sudo update-alternatives --install /usr/local/bin/usbip usbip /usr/lib/linux-tools/5.4.0-77-generic/usbip 20
 
+usbipd list
 usbipd wsl list
 usbipd wsl attach --busid 1-2
-usbipd wsl detach --busid 1-2
-
-lsusb
+wsl lsusb
 
 sudo apt install build-essential flex bison libssl-dev libelf-dev dwarves libncurses-dev
 cd /tmp

@@ -16,9 +16,6 @@ apk upgrade
 apk add --no-cache bash sudo erlang curl openssl snappy
 apk --purge del
 
-# info: link binaries
-ln -s /opt/vernemq/bin/* /usr/local/bin/
-
 # info: add a dedicated user to run emqx
 addgroup -S vernemq
 adduser -D vernemq -G vernemq

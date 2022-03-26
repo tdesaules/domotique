@@ -15,14 +15,13 @@ services:
     image: 'ghcr.io/tdesaules/vernemq-1.12.14-alpine3.15:1.0.0'
     networks:
       development:
-    dns: 'coredns'
+    dns: '172.16.254.253'
     ports:
       - '1883:1883'
     volumes:
       - '/var/run/docker.sock:/var/run/docker.sock:ro'
       - '/etc/localtime:/etc/localtime:ro'
-      - './config/vernemq.conf:/opt/vernemq/etc/vernemq.conf'
-
+      - './etc:/opt/vernemq/etc'
 networks:
   development:
     external: true

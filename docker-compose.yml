@@ -1,0 +1,30 @@
+#   author: thibault@desaules.me
+#   contributor: none
+#   licence: Apache License, Version 2.0 (https://opensource.org/licenses/Apache-2.0)
+#   example:
+#     docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/docker-compose.yml up
+#     docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/docker-compose.yml up --detach --remove-orphans --force-recreate
+#     docker-compose --file /mnt/c/Users/tdesa/GitHub/domotique/docker-compose.yml down
+---
+version: '3'
+
+services:
+  homeassistant:
+    container_name: 'homeassistant'
+    build: ./homeassistant
+    restart: 'no'
+    image: 'homeassistant'
+    networks:
+      development:
+    dns: '172.16.254.253'
+    ports:
+      - '8123:8123'
+    volumes:
+      - '/var/run/docker.sock:/var/run/docker.sock:ro'
+      - '/etc/localtime:/etc/localtime:ro'
+      - './config:/home/homeassistant/.homeassistant'
+
+networks:
+  development:
+    external: true
+...
