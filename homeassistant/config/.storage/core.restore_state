@@ -14,62 +14,176 @@
                     "entity_picture": "/api/image/serve/75671abdd21342178c2a1519ee93e5bf/512x512",
                     "friendly_name": "Home"
                 },
-                "last_changed": "2022-03-11T22:56:50.241353+00:00",
-                "last_updated": "2022-03-11T23:02:05.281579+00:00",
+                "last_changed": "2022-04-08T17:40:40.091298+00:00",
+                "last_updated": "2022-04-08T17:40:42.748595+00:00",
                 "context": {
-                    "id": "ebc873999c7431c8ade39c0984f3eac2",
+                    "id": "9463b138e3586c66f84a7b54d0fd8fd0",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-11T23:02:05.282802+00:00"
+            "last_seen": "2022-04-08T18:10:42.751359+00:00"
         },
         {
             "state": {
                 "entity_id": "person.thibault",
-                "state": "home",
+                "state": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
                 "attributes": {
                     "editable": false,
                     "id": "thibault",
-                    "latitude": 48.89520751061886,
-                    "longitude": 2.278336578905383,
-                    "gps_accuracy": 8.490629010267284,
+                    "latitude": 48.89196300984572,
+                    "longitude": 2.231301400707872,
+                    "gps_accuracy": 13.87219536869271,
                     "source": "device_tracker.iphone_de_thibault",
                     "user_id": "6958bf05c2ea4ef688a67678eae9301c",
                     "entity_picture": "/api/image/serve/d0c6166cefea73677c304476f793919d/512x512",
                     "friendly_name": "Thibault"
                 },
-                "last_changed": "2022-03-11T22:56:50.241513+00:00",
-                "last_updated": "2022-03-11T23:02:05.281702+00:00",
+                "last_changed": "2022-04-08T17:40:40.091401+00:00",
+                "last_updated": "2022-04-08T17:40:42.748692+00:00",
                 "context": {
-                    "id": "bf911fa31c379894016754d0584a328d",
+                    "id": "c23bb3812e4cdbdb71046467a60af3ca",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-11T23:02:05.282802+00:00"
+            "last_seen": "2022-04-08T18:10:42.751359+00:00"
         },
         {
             "state": {
-                "entity_id": "input_boolean.notify_home",
+                "entity_id": "binary_sensor.0x00124b0025134cb1_battery_low",
                 "state": "off",
                 "attributes": {
-                    "editable": false,
-                    "icon": "mdi:car",
-                    "friendly_name": "Notify when someone arrives home"
+                    "device_class": "battery",
+                    "friendly_name": "Porte battery low"
                 },
-                "last_changed": "2022-03-11T20:54:20.760664+00:00",
-                "last_updated": "2022-03-11T20:54:20.760664+00:00",
+                "last_changed": "2022-04-08T17:41:14.760026+00:00",
+                "last_updated": "2022-04-08T17:41:14.760026+00:00",
                 "context": {
-                    "id": "279c541000d4b9a6e01f36420fa146a5",
+                    "id": "b6a6123b87bf313a43ac944f281b4523",
                     "parent_id": null,
                     "user_id": null
                 }
             },
             "extra_data": null,
-            "last_seen": "2022-03-11T22:31:52.956832+00:00"
+            "last_seen": "2022-04-08T18:10:42.751359+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.0x00124b0025134cb1_contact",
+                "state": "on",
+                "attributes": {
+                    "device_class": "door",
+                    "friendly_name": "Porte contact"
+                },
+                "last_changed": "2022-04-08T18:09:41.231255+00:00",
+                "last_updated": "2022-04-08T18:09:41.231255+00:00",
+                "context": {
+                    "id": "64d19195835ff58ff42b87af27be78e7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-08T18:10:42.751359+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.0x00124b0025134cb1_battery",
+                "state": "100",
+                "attributes": {
+                    "state_class": "measurement",
+                    "unit_of_measurement": "%",
+                    "device_class": "battery",
+                    "friendly_name": "Porte battery"
+                },
+                "last_changed": "2022-04-08T17:41:14.760446+00:00",
+                "last_updated": "2022-04-08T17:41:14.760446+00:00",
+                "context": {
+                    "id": "7d14eba73071bc9d8a404853f2f408a2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "100",
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-04-08T18:10:42.751359+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.0x00124b00251c8d48_battery",
+                "state": "100",
+                "attributes": {
+                    "state_class": "measurement",
+                    "unit_of_measurement": "%",
+                    "device_class": "battery",
+                    "friendly_name": "Temp\u00e9rature battery"
+                },
+                "last_changed": "2022-04-08T17:41:14.760958+00:00",
+                "last_updated": "2022-04-08T17:41:14.760958+00:00",
+                "context": {
+                    "id": "0a16a5e04bad2f41419d1000c8999c05",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "100",
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-04-08T18:10:42.751359+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.0x00124b00251c8d48_humidity",
+                "state": "39.18",
+                "attributes": {
+                    "state_class": "measurement",
+                    "unit_of_measurement": "%",
+                    "device_class": "humidity",
+                    "friendly_name": "Temp\u00e9rature humidity"
+                },
+                "last_changed": "2022-04-08T18:10:37.480879+00:00",
+                "last_updated": "2022-04-08T18:10:37.480879+00:00",
+                "context": {
+                    "id": "7f462dea73caacd5228a951024734f17",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "39.18",
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-04-08T18:10:42.751359+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.0x00124b00251c8d48_temperature",
+                "state": "29.72",
+                "attributes": {
+                    "state_class": "measurement",
+                    "unit_of_measurement": "\u00b0C",
+                    "device_class": "temperature",
+                    "friendly_name": "Temp\u00e9rature temperature"
+                },
+                "last_changed": "2022-04-08T18:10:37.472071+00:00",
+                "last_updated": "2022-04-08T18:10:37.472071+00:00",
+                "context": {
+                    "id": "3749a428b5afa7a9f810e780b448b64a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "29.72",
+                "native_unit_of_measurement": "\u00b0C"
+            },
+            "last_seen": "2022-04-08T18:10:42.751359+00:00"
         }
     ]
 }

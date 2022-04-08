@@ -1,4 +1,4 @@
-homeassistant: false
+homeassistant: true
 permit_join: true
 frontend: true
 mqtt:
@@ -15,3 +15,5 @@ device_options:
 devices:
   '0x00124b0025134cb1':
     friendly_name: '0x00124b0025134cb1'
+  '0x00124b00251c8d48':
+    friendly_name: '0x00124b00251c8d48'

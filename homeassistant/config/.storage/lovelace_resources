@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "lovelace_resources",
+    "data": {
+        "items": [
+            {
+                "url": "/hacsfiles/lovelace-card-mod/card-mod.js?hacstag=190927524314",
+                "type": "module",
+                "id": "03436c119bb24284bcad4087d94417ae"
+            }
+        ]
+    }
+}

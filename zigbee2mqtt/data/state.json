@@ -1,9 +1,15 @@
 {
     "0x00124b0025134cb1": {
-        "voltage": 3300,
+        "voltage": 3100,
         "battery": 100,
         "contact": true,
         "tamper": false,
         "battery_low": false
+    },
+    "0x00124b00251c8d48": {
+        "temperature": 28.05,
+        "humidity": 27.93,
+        "voltage": 3000,
+        "battery": 100
     }
 }

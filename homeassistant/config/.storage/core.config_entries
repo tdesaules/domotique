@@ -22,6 +22,38 @@
                 "source": "user",
                 "unique_id": "tdesaules@outlook.com",
                 "disabled_by": null
+            },
+            {
+                "entry_id": "e26cd158b108a7d9494cd49a0bfcde21",
+                "version": 1,
+                "domain": "mqtt",
+                "title": "vernemq.desaules.local",
+                "data": {
+                    "broker": "vernemq.desaules.local",
+                    "port": 1883,
+                    "discovery": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "c65660d13e90bcaf3b277b76630a5dd3",
+                "version": 1,
+                "domain": "hacs",
+                "title": "",
+                "data": {
+                    "token": "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"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
             }
         ]
     }

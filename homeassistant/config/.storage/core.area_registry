@@ -43,6 +43,11 @@
                 "name": "Salle de bain",
                 "id": "salle_de_bain",
                 "picture": null
+            },
+            {
+                "name": "Test",
+                "id": "test",
+                "picture": null
             }
         ]
     }

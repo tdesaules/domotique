@@ -25,13 +25,20 @@
                             "elements": [
                                 {
                                     "type": "state-icon",
-                                    "tap_action": {
-                                        "action": "toggle"
-                                    },
-                                    "entity": "light.ceiling_lights",
+                                    "entity": "binary_sensor.0x00124b0025134cb1_contact",
                                     "style": {
-                                        "top": "47%",
-                                        "left": "42%"
+                                        "top": "37%",
+                                        "left": "87%",
+                                        "--paper-item-icon-color": "CornflowerBlue",
+                                        "--paper-item-icon-active-color": "Crimson",
+                                        "transform": "scale(1.5,1.5)"
+                                    }
+                                },
+                                {
+                                    "type": "state-label",
+                                    "entity": "sensor.0x00124b00251c8d48_temperature",
+                                    "card_mod": {
+                                        "style": ":host {\n  top: 28%;\n  left: 48%;\n  font-weight: bold;\n  color:\n    {% set temp = states('sensor.0x00124b00251c8d48_temperature') | float %}\n    {% if temp < 20 %} CornflowerBlue;\n    {% elif temp >= 20 and temp < 24 %} MediumSeaGreen;\n    {% elif temp >= 24 and temp < 30 %} Chocolate;\n    {% elif temp >= 30 %} Crimson;\n    {% else %} black;\n    {% endif %}\n}\n"
                                     }
                                 }
                             ]
@@ -95,6 +102,38 @@
                     "path": "cagibi",
                     "badges": [],
                     "cards": []
+                },
+                {
+                    "theme": "Backend-selected",
+                    "title": "test",
+                    "path": "test",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.0x00124b0025134cb1_contact",
+                                    "name": "Contact"
+                                }
+                            ],
+                            "title": "Porte01"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "sensor.0x00124b00251c8d48_humidity",
+                                    "name": "Humidity"
+                                },
+                                {
+                                    "entity": "sensor.0x00124b00251c8d48_temperature",
+                                    "name": "Temperature"
+                                }
+                            ],
+                            "title": "Temp\u00e9rature 01"
+                        }
+                    ]
                 }
             ]
         }

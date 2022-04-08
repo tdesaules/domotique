@@ -27,6 +27,78 @@
                 "name_by_user": null,
                 "disabled_by": null,
                 "configuration_url": "https://icloud.com/"
+            },
+            {
+                "config_entries": [
+                    "e26cd158b108a7d9494cd49a0bfcde21"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00124b0025134cb1"
+                    ]
+                ],
+                "manufacturer": "SONOFF",
+                "model": "Contact sensor (SNZB-04)",
+                "name": "0x00124b0025134cb1",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "3a6c42e58ba779d3c72ba36f71e2f965",
+                "via_device_id": null,
+                "area_id": "test",
+                "name_by_user": "Porte",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "e26cd158b108a7d9494cd49a0bfcde21"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00124b00251c8d48"
+                    ]
+                ],
+                "manufacturer": "SONOFF",
+                "model": "Temperature and humidity sensor (SNZB-02)",
+                "name": "0x00124b00251c8d48",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "cf385c359aea57afe5f2a64d65c8647c",
+                "via_device_id": null,
+                "area_id": "test",
+                "name_by_user": "Temp\u00e9rature",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "c65660d13e90bcaf3b277b76630a5dd3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "sw_version": "1.24.3",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "1485e9532c8132c68a7003b7b2e44372",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "homeassistant://hacs"
             }
         ],
         "deleted_devices": []

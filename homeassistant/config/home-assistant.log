@@ -1,3 +1,857 @@
-2022-03-11 23:56:12 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //home/homeassistant/.homeassistant/home-assistant_v2.db was shutdown cleanly
-2022-03-11 23:56:12 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=6 from 2022-03-11 20:50:07.388140)
-2022-03-12 00:01:02 WARNING (MainThread) [homeassistant.bootstrap] Waiting on integrations to complete setup: icloud
+2022-04-08 19:40:39 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-04-08 19:44:54 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+  left: 82%;
+  color: {{ states.sensor.mb1pkcolor.state }};
+}'
+2022-04-08 19:44:54 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+  left: 82%;
+  color: {{ states.sensor.mb1pkcolor.state }};
+}'
+2022-04-08 19:46:09 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+  left: 82%;
+  color: {{ states.sensor.mb1pkcolor.state }};
+}'
+2022-04-08 19:46:09 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+  left: 82%;
+  color: {{ states.sensor.mb1pkcolor.state }};
+}'
+2022-04-08 19:46:12 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+  left: 82%;
+  color: {{ states.sensor.mb1pkcolor.state }};
+}'
+2022-04-08 19:46:12 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+  left: 82%;
+  color: {{ states.sensor.mb1pkcolor.state }};
+}'
+2022-04-08 19:46:13 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+  left: 82%;
+  color: {{ states.sensor.mb1pkcolor.state }};
+}'
+2022-04-08 19:46:13 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+  left: 82%;
+  color: {{ states.sensor.mb1pkcolor.state }};
+}'
+2022-04-08 19:46:13 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+  left: 82%;
+  color: {{ states.sensor.mb1pkcolor.state }};
+}'
+2022-04-08 19:46:13 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+  left: 82%;
+  color: {{ states.sensor.mb1pkcolor.state }};
+}'
+2022-04-08 19:46:15 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+   top: 40%;
+   left: 82%;
+   color: {{ states.sensor.mb1pkcolor.state }};
+ }'
+2022-04-08 19:46:15 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+   top: 40%;
+   left: 82%;
+   color: {{ states.sensor.mb1pkcolor.state }};
+ }'
+2022-04-08 19:46:16 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+    top: 40%;
+    left: 82%;
+    color: {{ states.sensor.mb1pkcolor.state }};
+  }'
+2022-04-08 19:46:16 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+    top: 40%;
+    left: 82%;
+    color: {{ states.sensor.mb1pkcolor.state }};
+  }'
+2022-04-08 19:46:16 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+   top: 40%;
+   left: 82%;
+   color: {{ states.sensor.mb1pkcolor.state }};
+ }'
+2022-04-08 19:46:16 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+   top: 40%;
+   left: 82%;
+   color: {{ states.sensor.mb1pkcolor.state }};
+ }'
+2022-04-08 19:46:17 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+   left: 82%;
+   color: {{ states.sensor.mb1pkcolor.state }};
+ }'
+2022-04-08 19:46:17 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+   left: 82%;
+   color: {{ states.sensor.mb1pkcolor.state }};
+ }'
+2022-04-08 19:46:18 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+top: 40%;
+   left: 82%;
+   color: {{ states.sensor.mb1pkcolor.state }};
+ }'
+2022-04-08 19:46:18 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+top: 40%;
+   left: 82%;
+   color: {{ states.sensor.mb1pkcolor.state }};
+ }'
+2022-04-08 19:46:18 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+ top: 40%;
+   left: 82%;
+   color: {{ states.sensor.mb1pkcolor.state }};
+ }'
+2022-04-08 19:46:18 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+ top: 40%;
+   left: 82%;
+   color: {{ states.sensor.mb1pkcolor.state }};
+ }'
+2022-04-08 19:46:18 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+   left: 82%;
+   color: {{ states.sensor.mb1pkcolor.state }};
+ }'
+2022-04-08 19:46:18 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+   left: 82%;
+   color: {{ states.sensor.mb1pkcolor.state }};
+ }'
+2022-04-08 19:46:19 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+  left: 82%;
+   color: {{ states.sensor.mb1pkcolor.state }};
+ }'
+2022-04-08 19:46:19 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+  left: 82%;
+   color: {{ states.sensor.mb1pkcolor.state }};
+ }'
+2022-04-08 19:46:20 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+  left: 82%;
+  color: {{ states.sensor.mb1pkcolor.state }};
+ }'
+2022-04-08 19:46:20 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+  left: 82%;
+  color: {{ states.sensor.mb1pkcolor.state }};
+ }'
+2022-04-08 19:46:22 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+  left: 82%;
+  color: {{ states.sensor.mb1pkcolor.state }};
+}'
+2022-04-08 19:46:22 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering ':host {
+  top: 40%;
+  left: 82%;
+  color: {{ states.sensor.mb1pkcolor.state }};
+}'
+2022-04-08 19:47:20 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color: red;
+  {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+    red
+  {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:20 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color: red;
+  {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+    red
+  {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:32 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color: ;
+  {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+    red
+  {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:32 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color: ;
+  {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+    red
+  {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:32 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color: 
+  {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+    red
+  {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:32 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color: 
+  {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+    red
+  {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:33 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+  {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+    red
+  {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:33 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+  {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+    red
+  {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:46 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+   {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+    red
+  {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:46 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+   {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+    red
+  {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:46 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+    red
+  {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:46 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+    red
+  {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:49 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+     red
+  {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:49 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+     red
+  {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:49 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+      red
+  {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:49 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+      red
+  {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:50 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+      red
+   {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:50 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+      red
+   {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:51 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+      red
+    {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:51 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+      red
+    {% else %}
+    green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:51 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+      red
+    {% else %}
+     green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:51 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+      red
+    {% else %}
+     green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:52 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+      red
+    {% else %}
+      green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:52 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+      red
+    {% else %}
+      green
+  {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:53 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+      red
+    {% else %}
+      green
+   {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:53 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+      red
+    {% else %}
+      green
+   {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:53 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+      red
+    {% else %}
+      green
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:47:53 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% if states('sensor.synology_temperature_sda')| float >= 40 %}
+      red
+    {% else %}
+      green
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:52:37 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+{% set temp = states('sensor.br_temperature_2') | float %}
+    {% if states('sensor.0x00124b00251c8d48_temperature')|float <= 18 %}
+      darkblue
+    {% elif states('sensor.0x00124b00251c8d48_temperature')|float > 23 %}
+      darkred
+    {% else %}
+      green
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:52:37 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+{% set temp = states('sensor.br_temperature_2') | float %}
+    {% if states('sensor.0x00124b00251c8d48_temperature')|float <= 18 %}
+      darkblue
+    {% elif states('sensor.0x00124b00251c8d48_temperature')|float > 23 %}
+      darkred
+    {% else %}
+      green
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:52:37 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+ {% set temp = states('sensor.br_temperature_2') | float %}
+    {% if states('sensor.0x00124b00251c8d48_temperature')|float <= 18 %}
+      darkblue
+    {% elif states('sensor.0x00124b00251c8d48_temperature')|float > 23 %}
+      darkred
+    {% else %}
+      green
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:52:37 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+ {% set temp = states('sensor.br_temperature_2') | float %}
+    {% if states('sensor.0x00124b00251c8d48_temperature')|float <= 18 %}
+      darkblue
+    {% elif states('sensor.0x00124b00251c8d48_temperature')|float > 23 %}
+      darkred
+    {% else %}
+      green
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:52:38 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+  {% set temp = states('sensor.br_temperature_2') | float %}
+    {% if states('sensor.0x00124b00251c8d48_temperature')|float <= 18 %}
+      darkblue
+    {% elif states('sensor.0x00124b00251c8d48_temperature')|float > 23 %}
+      darkred
+    {% else %}
+      green
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:52:38 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+  {% set temp = states('sensor.br_temperature_2') | float %}
+    {% if states('sensor.0x00124b00251c8d48_temperature')|float <= 18 %}
+      darkblue
+    {% elif states('sensor.0x00124b00251c8d48_temperature')|float > 23 %}
+      darkred
+    {% else %}
+      green
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:52:38 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+   {% set temp = states('sensor.br_temperature_2') | float %}
+    {% if states('sensor.0x00124b00251c8d48_temperature')|float <= 18 %}
+      darkblue
+    {% elif states('sensor.0x00124b00251c8d48_temperature')|float > 23 %}
+      darkred
+    {% else %}
+      green
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:52:38 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+   {% set temp = states('sensor.br_temperature_2') | float %}
+    {% if states('sensor.0x00124b00251c8d48_temperature')|float <= 18 %}
+      darkblue
+    {% elif states('sensor.0x00124b00251c8d48_temperature')|float > 23 %}
+      darkred
+    {% else %}
+      green
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:52:38 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% set temp = states('sensor.br_temperature_2') | float %}
+    {% if states('sensor.0x00124b00251c8d48_temperature')|float <= 18 %}
+      darkblue
+    {% elif states('sensor.0x00124b00251c8d48_temperature')|float > 23 %}
+      darkred
+    {% else %}
+      green
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:52:38 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'unknown' when rendering template ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% set temp = states('sensor.br_temperature_2') | float %}
+    {% if states('sensor.0x00124b00251c8d48_temperature')|float <= 18 %}
+      darkblue
+    {% elif states('sensor.0x00124b00251c8d48_temperature')|float > 23 %}
+      darkred
+    {% else %}
+      green
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 19:57:07 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 't' is undefined when rendering ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% set temp = states('sensor.0x00124b00251c8d48_temperature') | float %}
+    {% if temp < 18 %} CornflowerBlue
+    {% elif t %}
+    {% endif %}
+}'
+2022-04-08 19:57:07 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 't' is undefined when rendering ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% set temp = states('sensor.0x00124b00251c8d48_temperature') | float %}
+    {% if temp < 18 %} CornflowerBlue
+    {% elif t %}
+    {% endif %}
+}'
+2022-04-08 19:57:07 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'te' is undefined when rendering ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% set temp = states('sensor.0x00124b00251c8d48_temperature') | float %}
+    {% if temp < 18 %} CornflowerBlue
+    {% elif te %}
+    {% endif %}
+}'
+2022-04-08 19:57:07 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'te' is undefined when rendering ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% set temp = states('sensor.0x00124b00251c8d48_temperature') | float %}
+    {% if temp < 18 %} CornflowerBlue
+    {% elif te %}
+    {% endif %}
+}'
+2022-04-08 19:57:07 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'tem' is undefined when rendering ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% set temp = states('sensor.0x00124b00251c8d48_temperature') | float %}
+    {% if temp < 18 %} CornflowerBlue
+    {% elif tem %}
+    {% endif %}
+}'
+2022-04-08 19:57:07 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'tem' is undefined when rendering ':host {
+  top: 28%;
+  left: 48%;
+  color:
+    {% set temp = states('sensor.0x00124b00251c8d48_temperature') | float %}
+    {% if temp < 18 %} CornflowerBlue
+    {% elif tem %}
+    {% endif %}
+}'
+2022-04-08 20:11:41 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if temp < 20 %} CornflowerBlue;
+    {% elif temp >= 20 and temp < 24 %} MediumSeaGreen;
+    {% elif temp >= 24 and temp < 25 %} Chocolate;
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:49 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+    {% elif temp >= 20 and temp < 24 %} MediumSeaGreen;
+    {% elif temp >= 24 and temp < 25 %} Chocolate;
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:49 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+    {% elif temp >= 20 and temp < 24 %} MediumSeaGreen;
+    {% elif temp >= 24 and temp < 25 %} Chocolate;
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:55 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+    
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:55 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+    
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:55 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+  
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:55 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+  
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:55 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:55 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:55 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:55 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:56 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:56 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:56 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:56 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:56 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:56 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:57 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:11:57 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'on' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:12:44 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'off' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:12:44 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'off' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:12:44 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'off' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+    {% elif temp >= 20 and temp < 24 %} MediumSeaGreen;
+    {% elif temp >= 24 and temp < 25 %} Chocolate;
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:12:44 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'off' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if state < 20 %} CornflowerBlue;
+    {% elif temp >= 20 and temp < 24 %} MediumSeaGreen;
+    {% elif temp >= 24 and temp < 25 %} Chocolate;
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-04-08 20:12:45 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'float' got invalid input 'off' when rendering template ':host {
+  top: 36%;
+  left: 86%;
+  color:
+    {% set state = states('binary_sensor.0x00124b0025134cb1_contact') | float %}
+    {% if temp < 20 %} CornflowerBlue;
+    {% elif temp >= 20 and temp < 24 %} MediumSeaGreen;
+    {% elif temp >= 24 and temp < 25 %} Chocolate;
+    {% elif temp >= 27 %} Crimson;
+    {% endif %}
+}' but no default was specified. Currently 'float' will return '0', however this template will fail to render in Home Assistant core 2022.1
